@@ -1,8 +1,8 @@
 {
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.7",
-  "package": "me.imtoggle.testmod.mixin",
-  "refmap": "mixins.testmod.refmap.json",
+  "package": "me.imtoggle.apiexample.mixin",
+  "refmap": "mixins.apiexample.refmap.json",
   "injectors": {
     "maxShiftBy": 5
   },

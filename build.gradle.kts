@@ -90,10 +90,12 @@ sourceSets {
 // Adds the Polyfrost maven repository so that we can get the libraries necessary to develop the mod.
 repositories {
     maven("https://repo.polyfrost.org/releases")
+    maven("https://repo.hypixel.net/repository/Hypixel/")
 }
 
 // Configures the libraries/dependencies for your mod.
 dependencies {
+    shade("net.hypixel:mod-api:0.1.7")
     // Adds the OneConfig library, so we can develop with it.
     modCompileOnly("cc.polyfrost:oneconfig-$platform:0.2.2-alpha+")
 
