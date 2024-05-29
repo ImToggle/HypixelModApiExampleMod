@@ -95,7 +95,7 @@ repositories {
 
 // Configures the libraries/dependencies for your mod.
 dependencies {
-    shade("net.hypixel:mod-api:0.1.7")
+    shade("net.hypixel:mod-api:0.4.0")
     // Adds the OneConfig library, so we can develop with it.
     modCompileOnly("cc.polyfrost:oneconfig-$platform:0.2.2-alpha+")
 
